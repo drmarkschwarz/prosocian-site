@@ -1,13 +1,285 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>prosocian-site</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prosocian — A connected ecosystem for educators</title>
+<meta name="description" content="Prosocian brings thoughtful workflows, structured records, and human-centered decision support into one platform—designed for security, clarity, and human insight.">
+<link rel="icon" href="logo.svg">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="container nav-inner">
+    <a class="brand" href="index.html">
+      <img src="logo.svg" alt="Prosocian">
+      <span class="wordmark">Prosocian</span>
+    </a>
+    <nav class="nav-links" id="navlinks">
+      <a href="products.html">Products</a>
+      <a href="index.html#approach">Approach</a>
+      <a href="about.html">Mission</a>
+      <a class="btn btn-primary" href="mailto:hello@prosocian.com">Request a demo</a>
+    </nav>
+    <div class="nav-cta">
+      <a class="btn btn-primary" href="mailto:hello@prosocian.com">Request a demo <span class="arw">&rarr;</span></a>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">&#9776;</button>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <span class="eyebrow">An ecosystem for educators</span>
+      <h1>One coherent system for the <span class="hl">human work of schools.</span></h1>
+      <p class="lead">Prosocian brings thoughtful workflows, structured records, and human-centered decision support into a single platform—designed for security, clarity, and human insight, so educators can respond with consistency and care.</p>
+      <div class="hero-cta">
+        <a class="btn btn-primary btn-lg" href="mailto:hello@prosocian.com">Request a demo <span class="arw">&rarr;</span></a>
+        <a class="btn btn-ghost btn-lg" href="products.html">Explore the platform</a>
+      </div>
+    </div>
+    <div class="hero-art">
+      <div class="eco">
+        <div class="eco-core">
+          <div class="ring"><img src="logo.svg" alt="Prosocian shield"></div>
+          <div class="lbl">One ecosystem, built around people</div>
+        </div>
+        <div class="eco-leaves">
+          <div class="leaf-chip" style="background:#9E90CC">Students</div>
+          <div class="leaf-chip" style="background:#D9927E">Parents</div>
+          <div class="leaf-chip" style="background:#84B3B2">Teachers</div>
+          <div class="leaf-chip" style="background:#A1C0EC">Leaders</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band band-cream" id="approach">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">The Prosocian approach</span>
+      <h2>Schools need more than isolated tools.</h2>
+      <p>Prosocian is built around a simple principle: schools deserve coherent systems, not scattered apps. Each solution structures information, enhances judgment, documents actions, and supports the students and families at the center of it all.</p>
+    </div>
+    <div class="pillars">
+      <div class="pillar">
+        <div class="pi" style="background:#EFF4F1;color:#5E8F7A">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l9 5-9 5-9-5 9-5z"/><path d="M3 13l9 5 9-5"/></svg>
+        </div>
+        <h3>Structure information</h3>
+        <p>Turn fragmented inputs into clear, organized, trustworthy records.</p>
+      </div>
+      <div class="pillar">
+        <div class="pi" style="background:#EFEBF6;color:#7C6BB0">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M15.5 8.5l-2.5 5-5 2.5 2.5-5 5-2.5z"/></svg>
+        </div>
+        <h3>Enhance judgment</h3>
+        <p>Human-centered decision support for complex, high-stakes situations.</p>
+      </div>
+      <div class="pillar">
+        <div class="pi" style="background:#EAF0FA;color:#5577B8">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M8.5 13.5l2 2 4-4"/></svg>
+        </div>
+        <h3>Document actions</h3>
+        <p>Defensible records and audit trails, captured naturally as you work.</p>
+      </div>
+      <div class="pillar">
+        <div class="pi" style="background:#FBEFE9;color:#C06B50">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3"/><path d="M3.5 20c0-3 2.7-5 5.5-5s5.5 2 5.5 5"/><path d="M16 6a3 3 0 0 1 0 6"/><path d="M20.5 20c0-2.4-1.7-4.2-3.7-4.8"/></svg>
+        </div>
+        <h3>Support people</h3>
+        <p>Keep students, staff, and families informed, included, and cared for.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="principles">
+  <div class="container">
+    <div class="section-head center">
+      <span class="eyebrow">How we build</span>
+      <h2>Designed for security, clarity, and human insight.</h2>
+      <p>Every Prosocian product is held to the same standard—because the work schools do is sensitive, high-stakes, and deeply human.</p>
+    </div>
+    <div class="pillars three">
+      <div class="pillar">
+        <div class="pi" style="background:#EFF4F1;color:#5E8F7A">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6l8-3z"/><path d="M9 12l2 2 4-4"/></svg>
+        </div>
+        <h3>Security</h3>
+        <p>Student and family data is protected with privacy and compliance built in from the first line of code—never bolted on. Sensitive records stay safe, access stays controlled, and trust is the default.</p>
+      </div>
+      <div class="pillar">
+        <div class="pi" style="background:#EAF0FA;color:#5577B8">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1.2" fill="currentColor" stroke="none"/></svg>
+        </div>
+        <h3>Clarity</h3>
+        <p>Clean workflows and plain-language design cut through procedural noise, so the right next step is always obvious. Less time deciphering process, more time doing the work that matters.</p>
+      </div>
+      <div class="pillar">
+        <div class="pi" style="background:#FBEFE9;color:#C06B50">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20s-7-4.4-7-9.5A4 4 0 0 1 12 8a4 4 0 0 1 7 2.5C19 15.6 12 20 12 20z"/></svg>
+        </div>
+        <h3>Human insight</h3>
+        <p>We support judgment—we don't replace it. Prosocian gives educators context and structure, and leaves the decisions to the people who know their students best.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band band-sky">
+  <div class="container">
+    <div class="section-head center">
+      <span class="eyebrow lav">The product family</span>
+      <h2>Complementary solutions. One unified ecosystem.</h2>
+      <p>Each solution is purpose-built and seamlessly connected—so your tools work together from day one, sharing one secure foundation.</p>
+    </div>
+    <div class="prod-grid">
+
+      <a class="prod-card is-teal" href="products.html#peer-conflict">
+        <div class="icon-tile tile-teal">
+          <img src="handshake.png" alt="" style="width:56px;height:auto">
+        </div>
+        <div class="prod-line c-teal">Flagship product</div>
+        <h3>Peer Conflict Management</h3>
+        <p>Empowers schools to prevent, manage, and resolve peer conflicts with clarity, consistency, and care.</p>
+        <div class="prod-foot"><span class="tag tag-live">Available now</span><span class="tlink">Learn more <span class="arw">&rarr;</span></span></div>
+      </a>
+
+      <a class="prod-card is-lav" href="products.html#data-analytics">
+        <div class="icon-tile tile-lav">
+          <svg viewBox="0 0 80 80" aria-hidden="true"><path d="M18 16 V62 H66" fill="none" stroke="#CFC8DE" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><rect x="24" y="46" width="11" height="14" rx="3.5" fill="#8FAE9B"/><rect x="40" y="38" width="11" height="22" rx="3.5" fill="#A1C0EC"/><rect x="56" y="30" width="11" height="30" rx="3.5" fill="#D9927E"/><path d="M22 46 L37 35 L51 39 L66 22 M66 22 L57 22 M66 22 L66 31" fill="none" stroke="#9E90CC" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="prod-line c-lav">Insight &amp; reporting</div>
+        <h3>Student Data Analytics</h3>
+        <p>Turns data into insight to support student success and informed decision-making.</p>
+        <div class="prod-foot"><span class="tag tag-soon">Coming soon</span><span class="tlink">Learn more <span class="arw">&rarr;</span></span></div>
+      </a>
+
+      <a class="prod-card is-blue" href="products.html#information-system">
+        <div class="icon-tile tile-blue">
+          <svg viewBox="0 0 80 80" aria-hidden="true"><circle cx="22" cy="30" r="8" fill="#8FAE9B"/><path d="M9 58 Q9 45 22 45 Q35 45 35 58 Z" fill="#8FAE9B"/><circle cx="58" cy="30" r="8" fill="#A1C0EC"/><path d="M45 58 Q45 45 58 45 Q71 45 71 58 Z" fill="#A1C0EC"/><circle cx="40" cy="26" r="10" fill="#9E90CC"/><path d="M24 60 Q24 43 40 43 Q56 43 56 60 Z" fill="#9E90CC"/></svg>
+        </div>
+        <div class="prod-line c-blue">School operations</div>
+        <h3>Student Information System</h3>
+        <p>Centralizes student information to streamline workflows and enhance school operations.</p>
+        <div class="prod-foot"><span class="tag tag-soon">Coming soon</span><span class="tlink">Learn more <span class="arw">&rarr;</span></span></div>
+      </a>
+
+      <a class="prod-card is-gold" href="products.html#resource-planning">
+        <div class="icon-tile tile-gold">
+          <svg viewBox="0 0 80 80" aria-hidden="true"><path d="M40 14 L68 31 L12 31 Z" fill="#D6B85A"/><rect x="14" y="33" width="52" height="6" rx="2" fill="#E0C97E"/><rect x="22" y="41" width="9" height="19" rx="3" fill="#C9DDE8"/><rect x="35.5" y="41" width="9" height="19" rx="3" fill="#A1C0EC"/><rect x="49" y="41" width="9" height="19" rx="3" fill="#9E90CC"/><rect x="12" y="62" width="56" height="7" rx="3" fill="#D6B85A"/></svg>
+        </div>
+        <div class="prod-line c-gold">Institutional growth</div>
+        <h3>Enterprise Resource Planning</h3>
+        <p>Integrates people, processes, and resources to drive efficiency and institutional growth.</p>
+        <div class="prod-foot"><span class="tag tag-soon">Coming soon</span><span class="tlink">Learn more <span class="arw">&rarr;</span></span></div>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<section class="band">
+  <div class="container spot">
+    <div>
+      <span class="eyebrow">Flagship &middot; Available now</span>
+      <h2>Peer Conflict Management</h2>
+      <p>The first Prosocian solution gives schools a clear, compassionate workflow for the moments that matter most—from a first report through to a documented, defensible resolution.</p>
+      <ul>
+        <li>Structured reporting for students, staff, and families</li>
+        <li>Guided case management from report to resolution</li>
+        <li>Built-in documentation and audit trail for compliance</li>
+        <li>Pattern insight that helps schools prevent, not just react</li>
+      </ul>
+      <a class="tlink" href="products.html#peer-conflict">Explore Peer Conflict Management <span class="arw">&rarr;</span></a>
+    </div>
+    <div class="hero-art">
+      <div class="mock">
+        <div class="mock-top">
+          <span class="d" style="background:#D9927E"></span><span class="d" style="background:#D6B85A"></span><span class="d" style="background:#84B3B2"></span>
+          <span style="margin-left:8px;font-weight:700;font-size:13.5px;color:#5C6E74">Case #2041 &mdash; Peer Conflict</span>
+        </div>
+        <div class="mock-body">
+          <div class="mock-row"><span class="k">Status</span><span class="v"><span class="chip chip-prog">In review</span></span></div>
+          <div class="mock-row"><span class="k">Reported by</span><span class="v">Staff member</span></div>
+          <div class="mock-row"><span class="k">Students involved</span><span class="v">2</span></div>
+          <div class="mock-row"><span class="k">Family notified</span><span class="v"><span class="chip chip-done">Yes</span></span></div>
+          <div class="mock-row"><span class="k">Documentation</span><span class="v">Complete</span></div>
+          <div class="mock-steps"><span class="st on"></span><span class="st on"></span><span class="st"></span></div>
+          <p style="font-size:12.5px;color:#8A979C;margin-top:10px">Report &rarr; Review &rarr; Resolution</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band band-deep">
+  <div class="container quote">
+    <div class="mk">&ldquo;</div>
+    <p>Less time managing procedural noise. More time supporting students, staff, and communities.</p>
+    <span class="eyebrow light" style="margin-top:22px">The Prosocian principle</span>
+  </div>
+</section>
+
+<section class="band band-ink">
+  <div class="container cta-band">
+    <h2>Ready to bring clarity to your school?</h2>
+    <p>Let's talk about what Prosocian can do for your students, families, and staff.</p>
+    <a class="btn btn-light btn-lg" href="mailto:hello@prosocian.com">Request a demo <span class="arw">&rarr;</span></a>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a class="brand" href="index.html">
+          <img src="logo.svg" alt="Prosocian" style="height:30px">
+          <span class="wordmark">Prosocian</span>
+        </a>
+        <p class="fdesc">A connected ecosystem for educators—built for security, clarity, and human insight, so schools can spend less time on procedural noise and more time supporting people.</p>
+      </div>
+      <div>
+        <h5>Products</h5>
+        <ul>
+          <li><a href="products.html#peer-conflict">Peer Conflict Management</a></li>
+          <li><a href="products.html#data-analytics">Student Data Analytics</a></li>
+          <li><a href="products.html#information-system">Student Information System</a></li>
+          <li><a href="products.html#resource-planning">Enterprise Resource Planning</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Company</h5>
+        <ul>
+          <li><a href="about.html">Mission &amp; vision</a></li>
+          <li><a href="index.html#principles">How we build</a></li>
+          <li><a href="about.html#leadership">Leadership</a></li>
+          <li><a href="mailto:hello@prosocian.com">Careers</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Connect</h5>
+        <ul>
+          <li><a href="mailto:hello@prosocian.com">hello@prosocian.com</a></li>
+          <li><a href="mailto:hello@prosocian.com">Request a demo</a></li>
+          <li><span style="color:rgba(255,255,255,.55)">prosocian.com</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bot">
+      <span>&copy; 2026 Prosocian. All rights reserved.</span>
+      <span class="tg"><span style="color:#9E90CC">Pro-student.</span> <span style="color:#D9927E">Pro-parent.</span> <span style="color:#84B3B2">Pro-teacher.</span> <span style="color:#FBF7EF">Prosocian.</span></span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  var mb=document.getElementById('menuBtn'),nl=document.getElementById('navlinks');
+  if(mb){mb.addEventListener('click',function(){nl.classList.toggle('open');});}
+</script>
+</body>
 </html>
